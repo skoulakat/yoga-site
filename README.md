@@ -1,2 +1,2 @@
-# yoga-site
+# skoulakat.github.io
 personal website

@@ -1,0 +1,178 @@
+/* ==== Google font ==== */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+ html,body { height: 100%; margin: 0px; padding: 0px; }
+body {
+	background: #e3e3e3;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #444;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h3 {
+	font-weight: 400;
+}
+
+h4 {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+
+/* wrapper */
+
+#wrapper {
+	text-align: center;
+	padding: 0 0 0 0;
+	background-color: #e3e3e3;
+  background-size: cover;
+}
+
+
+
+#wrapper h1 {
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: #fff;
+	font-size: 45px;
+	font-weight: 900;
+	letter-spacing: -1px;
+}
+
+h2.subtitle {
+	color: #fff;
+	font-size: 24px;
+}
+
+
+
+/* social */
+.social {
+    padding: 30px 0 0 0;
+}
+
+.social a {
+    font-size: 24px;
+    color: #7b4664;
+    padding: 0 5px;
+    transition: all 0.3s;
+}
+
+.social a:hover {
+    color: #edc5c2;
+}
+
+/* footer */
+p.copyright {
+	margin-top: 30px;
+	color: #7b4664;
+	text-align: center;
+  padding: 0;
+  margin-bottom: 30px;
+}	
+
+/* ribbon */
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* ribbon */
+
+.corner-ribbon{
+  width: 200px;
+  background: #e43;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* Custom styles */
+
+.corner-ribbon.sticky{
+  position: fixed;
+}
+
+.corner-ribbon.shadow{
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+
+/* ribbon position */
+
+.corner-ribbon.top-left{
+  top: 25px;
+  left: -50px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* ribbon Color */
+.corner-ribbon.red{background: #e43;}
+
+/* media queries 
+  Extra Small Devices, Phones */ 
+  
+@media only screen and (min-width : 260px) {
+	.pos {
+		margin-top: 35%;
+	}
+}
+
+@media only screen and (min-width : 320px) {
+	.pos {
+		margin-top: 18%;
+	}
+}
+@media only screen and (min-width : 480px) {
+	.pos {
+		margin-top: 5%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {	
+	.pos {
+		margin-top: 0px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.pos {
+		margin-top: 0px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.pos {
+		margin-top: 0px;
+	}
+}
